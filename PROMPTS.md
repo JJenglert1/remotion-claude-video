@@ -242,7 +242,7 @@ Use my brand assets from [path].
 ## Scene Planning
 
 ### Generate Scene Breakdown
-Use this prompt with ChatGPT to plan your scenes:
+Use this prompt with Claude to plan your scenes:
 
 ```
 Help me create prompts that I can use to create a video.

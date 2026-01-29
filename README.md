@@ -2,6 +2,8 @@
 
 Create videos programmatically with Claude Code. No timeline editor. No After Effects. Just prompts.
 
+**Watch the full tutorial:** [https://youtu.be/jGDy7NlRhxs](https://youtu.be/jGDy7NlRhxs)
+
 ## Quick Start (Under 10 Minutes)
 
 ### Step 1: Get Claude Code Desktop
@@ -62,7 +64,7 @@ See `skills/wavespeed-ai/SETUP.md` for instructions.
 
 ## Tips
 
-1. **Plan your scenes first** — Use ChatGPT to break down your video into scene-by-scene prompts
+1. **Plan your scenes first** — Use Claude to break down your video into scene-by-scene prompts
 2. **Iterate with screenshots** — When you see errors, screenshot and paste back to Claude
 3. **Start simple** — Get one scene working before adding complexity
 4. **Use your brand assets** — Point Claude at your `assets/` folder for consistent styling

@@ -89,4 +89,12 @@ See `PROMPTS.md` for ready-to-use prompts for:
 
 ---
 
+## Want More?
+
+- **[Join the Claude Code Community](https://claudecode.community?utm_source=github&utm_medium=repo&utm_campaign=remotion-starter)** — Connect with other builders
+- **[Subscribe to Ultrathink Newsletter](https://www.tenex.co/ultrathink?utm_source=github&utm_medium=repo&utm_campaign=remotion-starter)** — Weekly AI insights
+- **[Get a Free Tenex Audit](https://www.tenex.co/get-started?utm_source=github&utm_medium=repo&utm_campaign=remotion-starter)** — See how AI can 10x your workflow
+
+---
+
 Built by [@JJEnglert](https://twitter.com/JJEnglert)

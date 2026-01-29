@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+build/
+
+# Environment variables - NEVER COMMIT API KEYS
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys and secrets
+**/api-key*
+**/apikey*
+**/secret*
+**/*credentials*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Remotion
+.remotion/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Generated assets (uncomment if you don't want to track these)
+# assets/generated/

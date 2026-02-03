@@ -10,9 +10,13 @@ Create videos programmatically with Claude Code. No timeline editor. No After Ef
 
 Download the Claude desktop app from [claude.ai](https://claude.ai). You get Claude Code built in — no terminal required.
 
-### Step 2: The Remotion Skill is Already Included
+### Step 2: Skills are Already Included
 
-When you clone this repo, the Remotion skill is already installed at `.agents/skills/remotion-best-practices/`. Claude Code will automatically use it when working with Remotion projects.
+When you clone this repo, three powerful skills are pre-installed and automatically loaded by Claude Code:
+
+- **Remotion Best Practices** — Video creation expertise with 30+ rules for animations, audio, captions, and more
+- **UI/UX Pro Max** — 50+ design styles, 97 color palettes, 57 font pairings for professional visuals
+- **Copywriting** — Conversion-focused copy principles for compelling video text and CTAs
 
 ### Step 3: Create Your First Video
 
@@ -32,7 +36,9 @@ remotion-starter-kit/
 ├── PROMPTS.md               # Copy-paste prompts for common workflows
 ├── .agents/
 │   └── skills/
-│       └── remotion-best-practices/  # Remotion skill (auto-loaded by Claude)
+│       ├── remotion-best-practices/  # Remotion video creation skill
+│       ├── ui-ux-pro-max/            # Design system & UI/UX skill
+│       └── copywriting/              # Conversion copywriting skill
 ├── skills/
 │   └── wavespeed-ai/        # Instructions to create the WaveSpeed skill
 │       └── SETUP.md
@@ -41,6 +47,30 @@ remotion-starter-kit/
     ├── fonts/
     └── images/
 ```
+
+## Included Skills
+
+### Remotion Best Practices
+The official Remotion skill from [remotion-dev/skills](https://github.com/remotion-dev/skills). Includes 30+ rules covering:
+- Animations, transitions, and timing
+- Audio, video, and image handling
+- Captions and subtitles
+- 3D content with Three.js
+- Fonts and text measurement
+
+### UI/UX Pro Max
+Design intelligence from [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill). Includes:
+- 50+ design styles
+- 97 color palettes
+- 57 font pairings
+- 99 UX guidelines
+- 25 chart types
+
+### Copywriting
+Conversion copywriting from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills). Covers:
+- Clear, compelling copy principles
+- CTA best practices
+- Page-specific guidance (landing pages, pricing, etc.)
 
 ## What You Can Build
 

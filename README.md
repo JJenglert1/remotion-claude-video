@@ -10,15 +10,9 @@ Create videos programmatically with Claude Code. No timeline editor. No After Ef
 
 Download the Claude desktop app from [claude.ai](https://claude.ai). You get Claude Code built in — no terminal required.
 
-### Step 2: Install the Remotion Skill
+### Step 2: The Remotion Skill is Already Included
 
-Open Claude Code in this project folder and tell it:
-
-```
-Help me install this skill: https://github.com/remotion-dev/remotion-claude-code-skill
-```
-
-Approve the terminal commands when prompted. That's it — Remotion is ready.
+When you clone this repo, the Remotion skill is already installed at `.agents/skills/remotion-best-practices/`. Claude Code will automatically use it when working with Remotion projects.
 
 ### Step 3: Create Your First Video
 
@@ -36,6 +30,9 @@ Claude will set up the project, create the animation, and give you a localhost U
 remotion-starter-kit/
 ├── README.md                 # You're here
 ├── PROMPTS.md               # Copy-paste prompts for common workflows
+├── .agents/
+│   └── skills/
+│       └── remotion-best-practices/  # Remotion skill (auto-loaded by Claude)
 ├── skills/
 │   └── wavespeed-ai/        # Instructions to create the WaveSpeed skill
 │       └── SETUP.md
@@ -83,7 +80,6 @@ See `PROMPTS.md` for ready-to-use prompts for:
 
 ## Resources
 
-- [Remotion Skill Repository](https://github.com/remotion-dev/remotion-claude-code-skill)
 - [Remotion Documentation](https://remotion.dev)
 - [Claude Code](https://claude.ai)
 
